@@ -66,9 +66,9 @@ The final matrix (after running all steps) should look like:
 
 ## 🔹 Technologies Used
 
-- HTML5
-- CSS3
-- Vanilla JavaScript
+- HTML
+- CSS
+- JavaScript
 
 ---
 
