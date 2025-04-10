@@ -1,0 +1,120 @@
+body {
+    font-family: Arial, sans-serif;
+    background: #1e1e2f;
+    color: #ffffff;
+    text-align: center;
+    padding: 20px;
+}
+
+.header-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    flex-wrap: wrap;
+    padding: 20px;
+    gap: 20px;
+    background-color: rgba(0, 0, 0, 0.5);
+    border-radius: 12px;
+}
+
+.header-container h1 {
+    margin: 0;
+    flex: 1 1 60%;
+    color: cyan;
+    font-size: 1.8em;
+}
+
+.group-box {
+    background-color: rgba(0, 0, 0, 0.6);
+    border: 2px solid cyan;
+    padding: 10px 15px;
+    border-radius: 10px;
+    color: white;
+    min-width: 200px;
+    max-width: 300px;
+    font-size: 0.95em;
+    flex: 1 1 35%;
+}
+
+.group-box h3 {
+    margin-top: 0;
+    margin-bottom: 10px;
+    font-size: 1.2em;
+    text-align: center;
+    color: cyan;
+}
+
+.group-box ul {
+    list-style: disc;
+    padding-left: 18px;
+    margin: 0;
+}
+
+
+
+.input-section {
+    margin-bottom: 20px;
+}
+
+button {
+    padding: 10px 15px;
+    margin: 5px;
+    background-color: #444;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #666;
+}
+
+#matrix-input-area input {
+    width: 50px;
+    text-align: center;
+    margin: 2px;
+}
+
+#matrix-container {
+    display: inline-block;
+    margin-top: 20px;
+}
+
+.matrix-row {
+    display: flex;
+    justify-content: center;
+}
+
+.cell {
+    width: 50px;
+    height: 50px;
+    border: 1px solid #aaa;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 1px;
+    font-weight: bold;
+    font-size: 16px;
+    background-color: #2b2b40;
+    transition: background-color 0.4s ease;
+}
+
+.updated {
+    background-color: green !important;
+    color: white;
+}
+
+#step-message {
+    margin-top: 20px;
+    font-size: 18px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #00ffcc;
+}
+
+/* .arrow {
+    font-size: 24px;
+    margin-right: 10px;
+} */
