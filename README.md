@@ -58,7 +58,7 @@ The final matrix (after running all steps) should look like:
 |     | 1 | 2 | 3 | 4 |
 |-----|---|---|---|---|
 | 1   | 0 | 3 | 5 | 6 |
-| 2   | 7 | 0 | 2 | 3 |
+| 2   | 5 | 0 | 2 | 3 |
 | 3   | 3 | 6 | 0 | 1 |
 | 4   | 2 | 5 | 7 | 0 |
 
