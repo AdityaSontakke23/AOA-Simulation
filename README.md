@@ -64,11 +64,20 @@ The final matrix (after running all steps) should look like:
 
 ---
 
+## 🔹 File structure
+
+aoa-simulation/
+├── index.html      
+├── style.css       
+└── script.js 
+
+---
+
 ## 🔹 Technologies Used
 
-- HTML
-- CSS
-- JavaScript
+- HTML5 
+- CSS3 
+- Vanilla JavaScript
 
 ---
 
