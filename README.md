@@ -4,7 +4,7 @@ This project is a web-based simulation of the **Floyd-Warshall Algorithm**, used
 
 ---
 
-## 🔹 Group Members
+## * Group Members
 
 | Name               | Roll Number     |
 |--------------------|-----------------|
@@ -14,10 +14,10 @@ This project is a web-based simulation of the **Floyd-Warshall Algorithm**, used
 
 ---
 
-## 🔹 How to Run
+## * How to Run
 
 1. Clone or download the repository.
-2. Run the `index.html` in vs code (no server required).
+2. Run the index.html in vs code (no server required).
 3. Use the input section to enter the number of nodes and their distance matrix.
 4. Click **Start Simulation** to begin.
 5. Use **Next Step** to proceed through each step of the Floyd-Warshall algorithm.
@@ -25,17 +25,17 @@ This project is a web-based simulation of the **Floyd-Warshall Algorithm**, used
 
 ---
 
-## 🔹 File Structure
+## * File Structure
 
 | File Name     | Description                                 |
 |---------------|---------------------------------------------|
-| `index.html`  | Main file to launch in the browser          |
-| `style.css`   | Contains styles for layout and visuals      |
-| `script.js`   | Logic for simulation and step-wise control  |
+| index.html  | Main file to launch in the browser          |
+| style.css   | Contains styles for layout and visuals      |
+| script.js   | Logic for simulation and step-wise control  |
 
 ---
 
-## 🔹 Example Input
+## * Example Input
 
 Suppose you have 4 nodes and want to simulate the following distance matrix:
 
@@ -46,12 +46,12 @@ Suppose you have 4 nodes and want to simulate the following distance matrix:
 | 3   | 5 | ∞ | 0 | 1 |
 | 4   | 2 | ∞ | ∞ | 0 |
 
-- Represent ∞ (infinity) as `INF` or leave the input field blank (depending on implementation).
+- Represent ∞ (infinity) as INF or leave the input field blank (depending on implementation).
 - After completing the simulation, the output matrix should show the shortest distances between all pairs.
 
 ---
 
-## 🔹 Expected Output
+## * Expected Output
 
 The final matrix (after running all steps) should look like:
 
@@ -64,15 +64,15 @@ The final matrix (after running all steps) should look like:
 
 ---
 
-## 🔹 Technologies Used
+## * Technologies Used
 
 - HTML5 
 - CSS3 
-- Vanilla JavaScript
+- JavaScript
 
 ---
 
-## 📌 Notes
+## * Notes
 
 - Input values must be non-negative integers or left blank for infinite distance.
 - Minimum of 2 nodes and maximum of 10 nodes allowed.
